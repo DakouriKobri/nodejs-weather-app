@@ -1,0 +1,25 @@
+<html lang='en'>
+
+  <head>
+    {{>headMetaData}}
+  </head>
+
+  <body>
+    <div class="main-content">
+    {{>header}}
+    <p>Get a location weather info here!</p>
+
+    <form action="">
+      <input type="text" placeholder="Stockholm">
+      <button type="submit">Search</button>
+    </form>
+
+    <p id="message-1"></p>
+    <p id="message-2"></p>
+    </div>
+    
+    <script src='js/app.js'></script>
+    {{>footer}}
+  </body>
+
+</html>
